@@ -5,22 +5,27 @@ import java.util.Scanner;
 public class UserInputProgram {
 
 	public static void main(String[] args) {
-		//user-input
-	
-		Scanner s=new Scanner (System.in);
-		System.out.println("Enter Your salary:");
-		float salary=s.nextFloat();
-		//double salary1=s.nextDouble();
-		String name=s.nextLine();
-		System.out.println("Enter the character: ");
-		char ch=s.next().charAt(0,7);
-	
-		System.out.println("Enter Your Name");
-		System.out.println("salary is : "+salary);
-		System.out.println("salary is : "+name);
-		s.close();
+		Scanner sc = new Scanner(System.in);
+		//double
+		System.out.println("Enter Your Salary: ");
+		float salary = sc.nextFloat();
+		//string
+		System.out.println("Enter Your Name: ");
+		String name = sc.next(); //to print the first word of statement
 		
-
+		sc.nextLine(); //to print the next line
+		//string
+		System.out.println("Enter Your Name: ");
+		String name1 = sc.nextLine(); //to print the whole statement
+		//character
+		System.out.println("Enter Your Character: ");
+		char ch = sc.next().charAt(0);
+		
+		System.out.println("Salary is: "+salary);
+		System.out.println("Name is: "+name);
+		System.out.println("Name1 is: "+name1);
+		System.out.println("Character is: "+ch);
+		sc.close(); //to close the warnings.
 	}
 
 }
