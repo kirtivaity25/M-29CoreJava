@@ -2,7 +2,6 @@ package org.tnsif.classandobject;
 import java.util.Scanner;
 public class ConstructorDemo {
 
-	public static void main(String[] args) {
 		public static void main(String[] args) {
 			Scanner s =new Scanner(System.in);
 			int id ;
@@ -45,6 +44,5 @@ public class ConstructorDemo {
 			System.out.println(c1);
 			s.close();
 
-	}
-
+		}
 }
