@@ -1,40 +1,44 @@
-package org.tnsif.encapsulation;
 
+//program to demonstrate on encapsulation
+package org.tnsif.encapsulation;
 public class HDFCBank {
 
-	private Long cardno;
-	private String cardtype;
-	private int cvvno;
-	private int pinno;
-	public Long getCardno() {
-		return cardno;
+	private Long cardNo;
+	private String cardType;
+	private int CVVNo;
+	private int pinNo;
+	public Long getCardNo() {
+		return cardNo;
 	}
-	public void setCardno(Long cardno) {
-		this.cardno = cardno;
+	public void setCardNo(Long cardNo) {
+		this.cardNo = cardNo;
 	}
-	public String getCardtype() {
-		return cardtype;
+	public String getCardType() {
+		return cardType;
 	}
-	public void setCardtype(String cardtype) {
-		this.cardtype = cardtype;
+	public void setCardType(String cardType) {
+		this.cardType = cardType;
 	}
-	public int getCvvno() {
-		return cvvno;
+	public int getCVVNo() {
+		return CVVNo;
 	}
-	public void setCvvno(int cvvno) {
-		this.cvvno = cvvno;
+	public void setCVVNo(int cVVNo) {
+		CVVNo = cVVNo;
 	}
-	public int getPinno() {
-		return pinno;
+	public int getPinNo() {
+		return pinNo;
 	}
-	public void setPinno(int pinno) {
-		this.pinno = pinno;
+	public void setPinNo(int pinNo) {
+		this.pinNo = pinNo;
+	}
+	
+	public void display() {
+		System.out.println();
 	}
 	@Override
 	public String toString() {
-		return "HDFCBank [cardno=" + cardno + ", cardtype=" + cardtype + ", cvvno=" + cvvno + ", pinno=" + pinno
-				+ "]";
+		return "HDFCBank [cardNo=" + cardNo + ", cardType=" + cardType + ", CVVNo=" + CVVNo + ", pinNo=" + pinNo + "]";
 	}
-	}
-
+	
+	
 }

@@ -1,23 +1,23 @@
 package org.tnsif.encapsulation;
 import org.tnsif.encapsulation.HDFCBank;
-public class EncapsulationDemo {
+
+public class EncapsulationDemo{
 
 	public static void main(String[] args) {
+		HDFCBank h = new HDFCBank();
+		//to set a value
+		h.setCardNo(123456789L);
+		h.setCardType("Debit Card");
+		h.setCVVNo(444);
+		h.setPinNo(1234);
+		//getters is used to return a value
+		System.out.println(h.getCardNo());
+		System.out.println(h.getCardType());
+		System.out.println(h.getCVVNo());
+		System.out.println(h.getPinNo());
 		
-		HDFCBank h =new HDFCBank();
-		//setter
-		h.setCardno(451266542L);
-		h.setCardtype("Credit");
-		h.setCvvno(4444);
-		h.setPinno(1001);
-		//getter
-
-		System.out.println(h.getCardno());
-		System.out.println(h.getCardtype());
-		System.out.println(h.getCvvno());
-		System.out.println(h.getPinno());
 		
-
+		
 	}
 
 }
