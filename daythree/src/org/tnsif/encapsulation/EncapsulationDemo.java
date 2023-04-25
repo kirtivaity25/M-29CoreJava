@@ -1,6 +1,5 @@
 package org.tnsif.encapsulation;
 import org.tnsif.encapsulation.HDFCBank;
-
 public class EncapsulationDemo{
 
 	public static void main(String[] args) {
