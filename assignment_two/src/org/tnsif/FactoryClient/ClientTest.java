@@ -3,9 +3,9 @@ package org.tnsif.FactoryClient;
  *
  *Client program which makes use of Factory Design Pattern
  */
-import org.stjohn.factorydesignpattern.Computer;
-import org.stjohn.factorydesignpattern.ComputerFactory;
-import org.stjohn.factorydesignpattern.ComputerType;
+import org.tnsif.factorydesignpattern.Computer;
+import org.tnsif.factorydesignpattern.ComputerFactory;
+import org.tnsif.factorydesignpattern.ComputerType;
 
 public class ClientTest {
 

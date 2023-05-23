@@ -1,8 +1,8 @@
 package org.tnsif.factorydesignpattern;
 
-import org.stjohn.factorydesignpattern.impl.Laptop;
-import org.stjohn.factorydesignpattern.impl.PC;
-import org.stjohn.factorydesignpattern.impl.Server;
+import org.tnsif.impl.Laptop;
+import org.tnsif.impl.PC;
+import org.tnsif.impl.Server;
 
 public class ComputerFactory {
 /*This Factory class returns Computer instance as per
